@@ -55,6 +55,7 @@ var (
 	ErrMutedInGroup     = NewCodeError(MutedInGroup, "MutedInGroup")
 	ErrMutedGroup       = NewCodeError(MutedGroup, "MutedGroup")
 	ErrMsgAlreadyRevoke = NewCodeError(MsgAlreadyRevoke, "MsgAlreadyRevoke")
+	ErrMsgBeBlocked     = NewCodeError(MsgBeBlocked, "MsgBeBlocked")
 
 	ErrConnOverMaxNumLimit = NewCodeError(ConnOverMaxNumLimit, "ConnOverMaxNumLimit")
 

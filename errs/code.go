@@ -73,6 +73,7 @@ const (
 	MutedInGroup          = 1402 // 群成员被禁言
 	MutedGroup            = 1403 // 群被禁言
 	MsgAlreadyRevoke      = 1404 // 消息已撤回
+	MsgBeBlocked          = 1405 //陌生人消息被拦截
 
 	// token错误码.
 	TokenExpiredError     = 1501
